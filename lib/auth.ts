@@ -102,7 +102,7 @@ export async function registerUser(userData: {
       email: userData.email.toLowerCase(),
       password: hashedPassword,
       image: null,
-      role: userData.email.includes("admin") ? "admin" : "user", // Auto-assign admin role for demo
+      role: userData.email.includes("dileep_14") ? "admin" : "user", // Auto-assign admin role for demo
       createdAt: new Date(),
       updatedAt: new Date(),
     })
